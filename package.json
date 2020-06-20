@@ -1,0 +1,33 @@
+{
+    "name": "php-goats",
+    "displayName": "PHP Goats Extension Pack",
+    "description": "An extension pack to improve your PHP writing experience",
+    "version": "1.0.0",
+    "publisher": "curtisblackwell",
+    "engines": {
+        "vscode": "^1.44.2"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "galleryBanner": {
+        "color": "#D6D4DB",
+        "theme": "light"
+    },
+    "icon": "icon.png",
+    "homepage": "https://github.com/curtisblackwell/vs-code-php-goats",
+    "bugs": {
+        "url": "https://github.com/curtisblackwell/vs-code-php-goats/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/curtisblackwell/vs-code-php-goats"
+    },
+    "extensionPack": [
+        "calebporzio.better-phpunit",
+        "junstyle.php-cs-fixer",
+        "felixfbecker.php-debug",
+        "neilbrayfield.php-docblocker",
+        "bmewburn.vscode-intelephense-client"
+    ]
+}
